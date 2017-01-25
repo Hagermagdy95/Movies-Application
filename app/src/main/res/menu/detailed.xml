@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Add to favorites"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/fav"/>
+    <item android:title="Read"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/rd"/>
+</menu>

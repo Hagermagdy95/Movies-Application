@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu tools:context=".MainActivity" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Sort by rate"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/sort"/>
+    <item android:title="Top Rated"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/rated"/>
+    <item android:title="List of favorites"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/favorites"/>
+
+
+</menu>
